@@ -41,7 +41,7 @@ const mimeType = {
 };
 
 //Lets define a port we want to listen to
-let PORT = 8180;
+let PORT = 8080;
 let SOLRHOST = "localhost";
 let SOLRPORT = 8983;
 let SOLRCOLLECTION = "validate";
