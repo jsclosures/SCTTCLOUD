@@ -1,0 +1,39 @@
+{
+  "name": "sctt",
+  "version": "1.0.0",
+  "description": "search change tracking tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "node .\\index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsclosures/sctt.git"
+  },
+  "keywords": [
+    "before",
+    "after",
+    "search",
+    "configuration",
+    "change",
+    "tracking"
+  ],
+  "author": "harcor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsclosures/sctt/issues"
+  },
+  "homepage": "https://github.com/jsclosures-com/sctt#readme",
+  "devDependencies": {
+    "debugging-aid": "^0.6.8",
+    "eslint": "^7.12.1"
+  },
+  "dependencies": {
+    "https": "^1.0.0",
+    "request": "^2.88.2",
+    "utf8": "^3.0.0",
+    "websocket": "^1.0.34",
+    "zlib": "^1.0.5"
+  }
+}
